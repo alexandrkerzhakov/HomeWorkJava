@@ -8,7 +8,7 @@ import java.nio.ByteBuffer;
 Такое предположение позволит хранить в одном числе типа int всё поле 3х3. Записать в файл 9 значений так, чтобы они заняли три байта.
  */
 
-public class Tic_Tac_Toe_To_INT {
+public class FieldToInt {
     public static void main(String[] args) {
         byte[] tic_tac_toe = new byte[4];
 
